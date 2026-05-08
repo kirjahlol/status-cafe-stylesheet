@@ -35,9 +35,19 @@
 }
 
 body {
+  font-size: 1rem;
+  line-height: calc(1.5 / 1);
   font-family: "Inter Variable", sans-serif;
   color: var(--ctp-latte-text);
   background-color: var(--ctp-latte-base);
+}
+
+h2 {
+  font-size: 1.25rem;
+  line-height: calc(1.75 / 1.25);
+  font-weight: 500;
+  font-family: "JetBrains Mono Variable", monospace;
+  margin-bottom: calc(0.25rem * 2);
 }
 
 .status {
@@ -57,6 +67,7 @@ body {
 }
 
 .status-content {
+  font-weight: 500;
   font-family: "JetBrains Mono Variable", monospace;
   color: var(--ctp-latte-yellow);
   background-color: var(--ctp-latte-base);
