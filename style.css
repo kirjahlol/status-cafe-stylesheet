@@ -45,6 +45,23 @@ body {
   display: none;
 }
 
+.status-content {
+  font-family: "JetBrains Mono Variable", monospace;
+  color: var(--ctp-latte-yellow);
+  background-color: var(--ctp-latte-base);
+  padding: calc(0.25rem * 4);
+  border: 1px solid var(--ctp-latte-surface0);
+  border-radius: 0.5rem;
+}
+
+.status-content::before {
+  content: '"';
+}
+
+.status-content::after {
+  content: '"';
+}
+
 @media (prefers-color-scheme: dark) {
   body {
     color: var(--ctp-mocha-text);
@@ -53,6 +70,12 @@ body {
 
   .status {
     background-color: var(--ctp-mocha-mantle);
+    border: 1px solid var(--ctp-mocha-surface0);
+  }
+
+  .status-content {
+    color: var(--ctp-mocha-yellow);
+    background-color: var(--ctp-mocha-base);
     border: 1px solid var(--ctp-mocha-surface0);
   }
 }
