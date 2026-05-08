@@ -8,6 +8,6 @@ Navigate to the settings page and add the following code snippet to your "About"
 
 ```html
 <style>
-  @import url("https://cdn.jsdelivr.net/gh/kirjahlol/status-cafe-stylesheet/style.css");
+  @import url("https://cdn.jsdelivr.net/gh/kirjahlol/status-cafe-stylesheet@main/style.css");
 </style>
 ```
