@@ -42,6 +42,11 @@ body {
   color: var(--ctp-latte-text);
 }
 
+.cols {
+  grid-gap: 0;
+  gap: calc(0.25rem * 4);
+}
+
 nav {
   font-size: 0;
   display: flex;
