@@ -30,6 +30,7 @@
 
 body {
   font-family: "Inter Variable", sans-serif;
+  color: var(--ctp-latte-text);
   background-color: var(--ctp-latte-base);
 }
 
@@ -46,6 +47,7 @@ body {
 
 @media (prefers-color-scheme: dark) {
   body {
+    color: var(--ctp-mocha-text);
     background-color: var(--ctp-mocha-base);
   }
 
