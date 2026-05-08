@@ -33,6 +33,10 @@ body {
   background-color: var(--ctp-latte-base);
 }
 
+.status-username a {
+  display: none;
+}
+
 @media (prefers-color-scheme: dark) {
   body {
     background-color: var(--ctp-mocha-base);
