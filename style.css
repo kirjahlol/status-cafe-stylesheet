@@ -43,8 +43,8 @@ body {
 }
 
 .cols {
-  gap: calc(0.25rem * 4);
   grid-gap: 0;
+  gap: calc(0.25rem * 4);
 }
 
 nav {
